@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+@media (min-width: 413px) {
+    /* Desktop */
+
+    @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #cabeça {
+        min-height: 70px;
+        min-width: 100px;
+        text-align: center;
+        margin-bottom: 1vh;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        background-color: #087c5c;
+        max-height: 35vh;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    nav > a {
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    .button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .containner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 590px;
+    }
+
+    .containner figure.img img{
+        position: absolute;
+        top: 30%;
+        left: 30.5%;
+        width: 40%;
+    }
+
+    .containner figure.img2 img{
+        position: absolute;
+        top: 80%;
+        left: 26.5%;
+        width: 24%;
+    }
+
+    .containner figure.img3 img{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        width: 24.2%;
+    }
+
+    .image {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image.show {
+        opacity: 100;
+        transform: translateY(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    #Texto{
+        position: absolute;
+        left: 26%;
+        top: 57.5%;
+        width: 50%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: center;
+        text-indent: 20px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Texto2{
+        position: absolute;
+        left: 43.9%;
+        top: 95%;
+        width: 36%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: center;
+        text-indent: 20px;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Texto3{
+        position: absolute;
+        left: 29.5%;
+        top: 93%;
+        width: 18%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: center;
+        text-indent: 20px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: justify;
+        top: 120%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+    }
+
+    .espaço {
+        margin-right: 20px;
+    }
+   
+    }
+
+@media (max-width: 412px) {
+        
+    /* Mobile */
+    
+     @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+        
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+    
+        #cabeça {
+            min-height: 70px;
+            min-width: 100px;
+            text-align: center;
+            content: url(Arquivos/Imagens/Header\ 2.png);
+            margin-bottom: 1vh;
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        header {
+            background-color: #087c5c;
+            max-height: 35vh;
+            text-align: center;
+        }
+    
+        nav {
+            justify-content: center;
+            align-items: center;
+          }
+          
+        nav > a {
+            margin-right: 2vh;
+            margin-left: 2vh;
+            margin-bottom: 1vh;
+            max-width: 10%;
+            max-height: 10%;
+          }
+    
+        .button {
+            background-color: transparent;
+            border: transparent;
+            margin-right: 2vh;
+            margin-left: 2vh;
+            margin-bottom: 1vh;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            }
+    
+        button:active {
+            transform: scale(0.9);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+          }
+
+        p {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .containner{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: 590px;
+        }
+
+        .containner figure.img img{
+            position: absolute;
+            top: 30%;
+            left: -1.5%;
+            width: 100%;
+        }
+    
+        .containner figure.img2 img{
+            position: absolute;
+            top: 91%;
+            left: 4.5%;
+            width: 90%;
+        }
+
+        .containner figure.img3 img{
+            position: absolute;
+            top: 118%;
+            left: 4.5%;
+            width: 91%;
+        }
+    
+        #Texto{
+            position: absolute;
+            left: 5%;
+            top: 48%;
+            width: 90%;
+            color: #032b22;
+            font-family: mo;
+            font-weight: normal;
+            text-align: center;
+            text-indent: 20px;
+            font-size: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #Texto2{
+            position: absolute;
+            left: 12.5%;
+            top: 129.5%;
+            width: 70%;
+            color: #032b22;
+            font-family: mo;
+            font-weight: normal;
+            text-align: center;
+            text-indent: 20px;
+            font-size: 18px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #Texto3{
+            position: absolute;
+            left: 12.5%;
+            top: 102%;
+            width: 70%;
+            color: #032b22;
+            font-family: mo;
+            font-weight: normal;
+            text-align: center;
+            text-indent: 20px;
+            font-size: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }    
+
+        .image {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+          
+        .image.show {
+            opacity: 100;
+            transform: translateY(0px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: center;
+        top: 150%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+
+    .espaço {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+       
+    }    

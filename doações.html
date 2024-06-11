@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Arquivos/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_doações.css">
+    <title>Doações - Itamaracá Preservada</title>
+</head>
+
+<body>
+    
+    <header>
+
+    <div>
+        <img src="Arquivos/Imagens/Header.png" alt="Header" id="cabeça">
+    </div>
+           
+    <nav class="image-wrapper">
+
+    <button class="button" id="botão1" onclick="redirecionar"><img src="Arquivos/Imagens/Botão - Home.png" alt="Home"></button>
+    <script>
+        document.getElementById("botão1").addEventListener("click", redirecionar);
+            
+        function redirecionar() {
+            window.location.href = "home.html";
+        }
+    </script>
+    <button class="button" id="botão2" onclick="redirecionar"><img src="Arquivos/Imagens/Botão - Quem Somos.png" alt="Quem Somos"></button>
+    <script>
+        document.getElementById("botão2").addEventListener("click", redirecionar);
+            
+        function redirecionar() {
+            window.location.href = "quemsomos.html";
+        }
+    </script>
+    <button class="button" id="botão3" onclick="redirecionar"><img src="Arquivos/Imagens/Botão - Voluntários.png" alt="Voluntários"></button>
+    <script>
+        document.getElementById("botão3").addEventListener("click", redirecionar);
+            
+        function redirecionar() {
+            window.location.href = "voluntarios.html";
+        }
+    </script>
+    <button class="button" id="botão4" onclick="redirecionar"><img src="Arquivos/Imagens/Botão - Doações.png" alt="Doações"></button>
+    <script>
+        document.getElementById("botão4").addEventListener("click", redirecionar);
+            
+        function redirecionar() {
+            window.location.href = "doações.html";
+        }
+    </script>   
+    </nav>
+
+    </header>
+
+    <main class="containner">
+
+    <figure class="img">
+        <img src="Arquivos/Imagens/apoiador.png" alt="Apoiador" class="image">
+    </figure>
+
+    <figure class="img2">
+        <img src="Arquivos/Imagens/doação 2.png" alt="Doação" class="image">
+    </figure>
+    
+    <figure class="img3">
+        <img src="Arquivos/Imagens/doação 3.png" alt="Doação" class="image">
+    </figure> 
+     
+    <p id="Texto" class="image"> 
+        Com o seu valioso apoio, podemos perseverar em nossa missão de contribuir para a preservação ambiental. Sua colaboração desempenha um papel fundamental na nossa capacidade de avançar em prol desse objetivo vital e garantir um futuro mais sustentável para todos. <br><br> Saiba como contribuir: 
+    </p>
+    
+    <p id="Texto2" class="image">
+        Chave PIX: (00) 0 0000-0000
+    </p>
+    
+    <p id="Texto3" class="image">
+        Banco: fffffff Agência: 0000 Conta: 0000-0<br>CNPJ:
+    </p> 
+
+    <script>
+                // Aguarda até que o documento esteja completamente carregado
+        document.addEventListener("DOMContentLoaded", function () {
+            // Seleciona todas as imagens
+            const images = document.querySelectorAll(".image");
+        
+            // Adiciona a classe 'show' para iniciar a animação em cada imagem após um atraso
+            images.forEach(function(image, index) {
+            setTimeout(function() {
+                image.classList.add("show");
+            }, index * 500); // Atraso aumenta a cada imagem
+            });
+        });
+    </script>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="espaço"><a href = "https://wa.me/(55)8191768203"><img src="https://img.shields.io/badge/WhatsApp-verde?style=for-the-badge&logo=WhatsApp&logoColor=black&logoSize=auto"></a></div>
+            <div class="espaço"><a href = "https://www.instagram.com/itamaraca_preservada/"><img src="https://img.shields.io/badge/Instagram-pink?style=for-the-badge&logo=instagram&logoColor=white" alt=""></a> </div>
+            <div class="espaço"><a href = "mailto:itamaracapreservada.app@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a></p></div>
+            </div>
+    </footer>
+     
+</body>
+</html>

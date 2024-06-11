@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+@media (min-width: 413px) {
+   
+    /* Desktop */
+
+    @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+    
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #cabeça {
+        min-height: 70px;
+        min-width: 100px;
+        text-align: center;
+        margin-bottom: 1vh;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        background-color: #087c5c;
+        max-height: 35vh;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    nav > a {
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+      }
+
+    .button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        }
+
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    p {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .containner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 590px;
+    }
+
+    .containner figure.img img{
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        width: 25%;
+    }
+
+    .containner figure.img2 img{
+        position: absolute;
+        top: 40%;
+        left: 55%;
+        width: 45%;
+    }
+ 
+    #Texto{
+        position: absolute;
+        top: 69%;
+        left: 7%;
+        width: 40%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 19px;
+    }
+
+    .image {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image.show {
+        opacity: 100;
+        transform: translateY(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image2 {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image2.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image3 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image3.show {
+        opacity: 100;
+        transition: opacity 1s ease;
+    }
+
+    .image4 {
+        opacity: 1;
+        transition: opacity 1.5s ease, transform 1s ease;
+        }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: justify;
+        top: 130%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+    }
+
+    .espaço {
+        margin-right: 20px;
+    }
+   
+}
+
+@media (max-width: 412px) {
+
+    /* Mobile */
+    
+    @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #cabeça {
+        min-height: 70px;
+        min-width: 100px;
+        text-align: center;
+        content: url(Arquivos/Imagens/Header\ 2.png);
+        margin-bottom: 1vh;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        background-color: #087c5c;
+        max-height: 35vh;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+      }
+      
+    nav > a {
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        max-width: 10%;
+        max-height: 10%;
+      }
+
+    .button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        }
+
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      p {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .containner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 590px;
+    }
+
+    .containner figure.img img{
+        position: absolute;
+        top: 37%;
+        left: 8%;
+        width: 85%;
+    }
+
+    .containner figure.img2 img{
+        position: absolute;
+        top: 135%;
+        left: 5%;
+        width: 95%;
+    }
+ 
+    #Texto{
+        position: absolute;
+        left: 5%;
+        top: 55%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 19px;
+    }
+
+    .image {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image.show {
+        opacity: 100;
+        transform: translateY(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image2 {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image2.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image3 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image3.show {
+        opacity: 100;
+        transition: opacity 1s ease;
+    }
+
+    .image4 {
+        opacity: 1;
+        transition: opacity 1.5s ease, transform 1s ease;
+        }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: center;
+        top: 175%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+
+    .espaço {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+   
+}
+
+
