@@ -1,0 +1,971 @@
+@charset "UTF-8";
+
+@media (min-width: 413px) {
+    
+    /* Desktop */
+
+    @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #cabeça {
+        min-height: 70px;
+        min-width: 100px;
+        text-align: center;
+        margin-bottom: 1vh;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        background-color: #087c5c;
+        max-height: 35vh;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    nav > a {
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    .button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    p {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .containner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 590px;
+    }
+    
+    .containner figure.img img{
+        position: absolute;
+        left: 41.5%;
+        top: 39%;
+        width: 18%;
+    }
+    
+    .containner figure.img2 img{
+        position: absolute;
+        left: -0.5%;
+        top: 48%;
+        width: 35%;
+    }
+    
+    .containner figure.avatar img{
+        position: absolute;
+        left: -2%;
+        top: 54%;
+        width: 39%;
+    }
+    
+    .containner figure.img3 img{
+        position: absolute;
+        left: 72%;
+        top: 35%;
+        width: 22%;
+    }
+    .containner figure.img9 img{
+        position: absolute;
+        left: 7%;
+        top: 135%;
+        width: 23%;
+    }
+    
+    .containner figure.img10 img{
+        position: absolute;
+        left: 52%;
+        top: 136%;
+        width: 22%;
+    }
+
+    .containner figure.img11 img{
+        position: absolute;
+        left: 7%;
+        top: 190%;
+        width: 22.5%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img12 img{
+        position: absolute;
+        left: 51.5%;
+        top: 190%;
+        width: 22.5%;
+        border-radius: 15px;
+    }
+
+            
+    .containner figure.img13 img{
+        position: absolute;
+        left: 7%;
+        top: 245%;
+        width: 23%;
+        border-radius: 15px;
+    }
+
+            
+    .containner figure.img14 img{
+        position: absolute;
+        left: 53%;
+        top: 245%;
+        width: 21%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img15 img{
+        position: absolute;
+        left: 7%;
+        top: 300%;
+        width: 22%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img16 img{
+        position: absolute;
+        left: 53%;
+        top: 300%;
+        width: 21.5%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img17 img{
+        position: absolute;
+        left: 7%;
+        top: 355%;
+        width: 21%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img18 img{
+        position: absolute;
+        left: 53%;
+        top: 355%;
+        width: 21%;
+        border-radius: 15px;
+    }
+
+    #Texto{
+        position: absolute;
+        left: 37%;
+        top: 60%;
+        width: 27%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 18px;
+    }
+
+    #Texto2{
+        position: absolute;
+        left: 32%;
+        top: 147%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 15px;
+    }
+
+    #Texto3{
+        position: absolute;
+        left: 76%;
+        top: 147%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 15px; 
+    }
+
+    #Texto4{
+        position: absolute;
+        left: 32%;
+        top: 198%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+
+    #Texto5{
+        position: absolute;
+        left: 76%;
+        top: 198%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+        }
+
+     #Texto6{
+        position: absolute;
+        left: 32%;
+        top: 255%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    #Texto7{
+        position: absolute;
+        left: 76%;
+        top: 255%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }  
+
+    #Texto8{
+        position: absolute;
+        left: 32%;
+        top: 305%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }     
+                
+    #Texto9{
+        position: absolute;
+        left: 76%;
+        top: 305%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    #Texto10{
+        position: absolute;
+        left: 32%;
+        top: 360%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    #Texto11{
+        position: absolute;
+        left: 76%;
+        top: 360%;
+        width: 16%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: left;
+        text-indent: 20px;
+        font-size: 16px;
+    }
+
+    .image {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image2 {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image2.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image3 {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image3.show {
+        opacity: 100;
+        transform: translateY(0px);
+        transition: opacity 0.5s ease;
+    }
+
+    .image4 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image4.show {
+        opacity: 100;
+        transition: opacity 1s ease;
+    }
+
+    .image5 {
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image5.show {
+        opacity: 100;
+        transition: opacity 2s ease;
+    }
+
+    .image6 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image6.show {
+        opacity: 100;
+        transition: opacity 2s ease;
+    }
+
+    .imagem-galeria {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+    
+    .imagem-galeria.show {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 9999;
+    }
+      
+      /* Estilos para o conteúdo do modal */
+    .modal-conteudo {
+        max-width: 90%;
+        max-height: 90%;
+        margin: auto;
+        display: block;
+    }
+    
+      /* Estilos para o botão de fechar o modal */
+    .fechar {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    #slide{ 
+        position: absolute;
+        width: 12%;
+        top: 43%;
+        left: 77%;
+        cursor: pointer;
+    }
+
+    #slide2{ 
+        position: absolute;
+        width: 12.5%;
+        top: 67%;
+        left: 76.8%;
+        cursor: pointer;
+    }
+    
+    #slide3{ 
+        position: absolute;
+        width: 12.5%;
+        top: 92%;
+        left: 76.7%;
+        cursor: pointer;
+    }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: justify;
+        top: 415%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+    }
+
+    .espaço {
+        margin-right: 20px;
+    }
+
+    }
+
+@media (max-width: 412px) {
+
+    /* Mobile */
+    
+    @font-face {
+        font-family: mo;
+        src: url('Montserrat-SemiBold.ttf') format('truetype');
+    }
+    
+    body {
+        background-image: url('Arquivos/Imagens/Fundo 1.png');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #cabeça {
+        min-height: 70px;
+        min-width: 100px;
+        text-align: center;
+        content: url(Arquivos/Imagens/Header\ 2.png);
+        margin-bottom: 1vh;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    header {
+        background-color: #087c5c;
+        max-height: 35vh;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
+      
+    nav > a {
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        max-width: 10%;
+        max-height: 10%;
+    }
+
+    .button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    button:active {
+        transform: scale(0.9);
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+    p {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .containner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 590px;
+    }
+    
+    .containner figure.img img{
+        position: absolute;
+        left: 15%;
+        top: 37%;
+        width: 70%;
+    }
+    
+    .containner figure.img2 img{
+        position: absolute;
+        left: 9%;
+        top: 55%;
+        width: 80%;
+    }
+    
+    .containner figure.avatar img{
+        position: absolute;
+        left: 10%;
+        top: 59%;
+        width: 80%;
+    }
+    
+    .containner figure.img3 img{
+        position: absolute;
+        left: 9%;
+        top: 150%;
+        width: 80%;
+    }
+    .containner figure.img9 img{
+        position: absolute;
+        left: 10%;
+        top: 234%;
+        width: 80%;
+    }
+    
+    .containner figure.img10 img{
+        position: absolute;
+        left: 10%;
+        top: 310%;
+        width: 80%;
+    }
+
+    .containner figure.img11 img{
+        position: absolute;
+        left: 10%;
+        top: 390%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img12 img{
+        position: absolute;
+        left: 7%;
+        top: 460%;
+        width: 85%;
+        border-radius: 15px;
+    }
+
+            
+    .containner figure.img13 img{
+        position: absolute;
+        left: 10%;
+        top: 520%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+            
+    .containner figure.img14 img{
+        position: absolute;
+        left: 10%;
+        top: 580%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img15 img{
+        position: absolute;
+        left: 10%;
+        top: 650%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img16 img{
+        position: absolute;
+        left: 10%;
+        top: 720%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img17 img{
+        position: absolute;
+        left: 10%;
+        top: 800%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .containner figure.img18 img{
+        position: absolute;
+        left: 10%;
+        top: 877%;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    #Texto{
+        position: absolute;
+        left: 5%;
+        top: 93%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto2{
+        position: absolute;
+        left: 5%;
+        top: 275%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto3{
+        position: absolute;
+        left: 5%;
+        top: 353%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto4{
+        position: absolute;
+        left: 5%;
+        top: 433%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+
+    #Texto5{
+        position: absolute;
+        left: 5%;
+        top: 500%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+     #Texto6{
+        position: absolute;
+        left: 5%;
+        top: 557%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto7{
+        position: absolute;
+        left: 5%;
+        top: 622%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }  
+
+    #Texto8{
+        position: absolute;
+        left: 5%;
+        top: 691%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }     
+                
+    #Texto9{
+        position: absolute;
+        left: 5%;
+        top: 765%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto10{
+        position: absolute;
+        left: 5%;
+        top: 845%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    #Texto11{
+        position: absolute;
+        left: 5%;
+        top: 920%;
+        width: 90%;
+        color: #032b22;
+        font-family: mo;
+        font-weight: normal;
+        text-align: justify;
+        text-indent: 20px;
+        font-size: 20px;
+    }
+
+    .image {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image2 {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image2.show {
+        opacity: 100;
+        transform: translateX(0px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .image3 {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image3.show {
+        opacity: 100;
+        transform: translateY(0px);
+        transition: opacity 0.5s ease;
+    }
+
+    .image4 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image4.show {
+        opacity: 100;
+        transition: opacity 1s ease;
+    }
+
+    .image5 {
+        opacity: 0;
+        transition: opacity 1s ease, transform 1s ease;
+    }
+      
+    .image5.show {
+        opacity: 100;
+        transition: opacity 2s ease;
+    }
+
+    .image6 {
+        opacity: 0;
+        transition: opacity 1.5s ease, transform 1s ease;
+    }
+      
+    .image6.show {
+        opacity: 100;
+        transition: opacity 2s ease;
+    }
+
+    .imagem-galeria {
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+    
+    .imagem-galeria.show {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 9999;
+    }
+      
+      /* Estilos para o conteúdo do modal */
+    .modal-conteudo {
+        max-width: 90%;
+        max-height: 90%;
+        margin: auto;
+        display: block;
+    }
+    
+      /* Estilos para o botão de fechar o modal */
+    .fechar {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    #slide{ 
+        position: absolute;
+        width: 42%;
+        top: 156%;
+        left: 28%;
+        cursor: pointer;
+    }
+
+    #slide2{ 
+        position: absolute;
+        width: 42.5%;
+        top: 177%;
+        left: 28%;
+        cursor: pointer;
+    }
+    
+    #slide3{ 
+        position: absolute;
+        width: 42.5%;
+        top: 199%;
+        left: 28%;
+        cursor: pointer;
+    }
+
+    footer {
+        position: absolute;
+        background-color: #087c5c;
+        color: #d9f1ed;
+        text-align: center;
+        top: 960%;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: mo;
+        text-indent: 20px;
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+
+    .espaço {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    }
