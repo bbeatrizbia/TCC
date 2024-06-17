@@ -166,24 +166,36 @@
         background-color: #087c5c;
         color: #d9f1ed;
         text-align: justify;
-        top: 120%;
         width: 100%;
         padding: 1% 0;
+        justify-content:  center;
+        align-items: center;
+    
+    }
+    footer h1{
+        margin-left: 40% ;
     }
     
     .footer-content {
         display: flex;
         justify-content:  center;
         align-items: center;
-        font-family: mo;
-        text-indent: 20px;
-        font-size: 18px;
     }
-
+    .footer-content img{
+        width: 45px;
+        border-radius: 25px;
+        border: #032b22 solid 2px;
+        cursor: pointer;
+    
+    }
+    .footer-content img:hover{
+        transform: scale(1.3);
+        transition: 0.5s;
+    }
+    
     .espaço {
         margin-right: 20px;
     }
-   
     }
 
 @media (max-width: 412px) {
